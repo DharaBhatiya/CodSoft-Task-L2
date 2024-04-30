@@ -1,0 +1,144 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     background-image: url('img/9.jpg');
+     /* background-image: url('img/4.webp'); */
+     background-size: contain;
+     /* background-image: url('https://tse2.mm.bing.net/th?id=OIP.s5HE1FOXvGyhjM7V8JTElAHaD5&pid=Api&P=0&h=180'); */
+     font-family: 'Abel', sans-serif;
+     font-family: 'EB Garamond', serif;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-family: 'Tektur', cursive;
+ }
+
+ .left {
+     /* border: 2px solid white; */
+     color: antiquewhite;
+     display: inline-block;
+     position: absolute;
+     top: 20px;
+     left: 34px;
+     text-align: center;
+ }
+
+ .left img {
+     width: 80px;
+ }
+
+ .left div {
+     text-align: center;
+     font-size: 15px;
+     line-height: 19px;
+ }
+
+ .mid {
+     /* border: 2px solid white; */
+     color: azure;
+     display: block;
+     width: 500px;
+     margin: 2px auto;
+     margin-top: 30px;
+
+ }
+
+ .right {
+     position: absolute;
+     right: 34px;
+     top: 38px;
+     display: inline-block;
+     /* border: 2px solid grey; */
+     color: beige;
+ }
+
+ .navbar {
+     display: inline-block;
+
+ }
+
+ .navbar li {
+     display: inline-block;
+     font-size: 18px;
+ }
+
+ .navbar li a {
+     color: white;
+     /* It is use for remove underline.*/
+     text-decoration: none;
+     padding: 10px 5px;
+ }
+
+ .navbar li a:hover,
+ .navbar li a:active {
+     /* It is use for underline */
+     text-decoration: underline;
+     color: lightgray;
+ }
+
+ .btn {
+     font-family: 'Abel', sans-serif;
+     font-family: 'EB Garamond', serif;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-family: 'Tektur', cursive;
+     margin: 0px 9px;
+     background-color: black;
+     color: white;
+     padding: 4px 14px;
+     border: 2px solid gray;
+     border-radius: 10px;
+     font-size: 15px;
+     /* It is use for point  */
+     cursor: pointer;
+ }
+
+ .btn:hover {
+     background-color: rgb(74, 73, 73);
+ }
+
+ .container {
+     color: white;
+     border: 2px solid white;
+     margin: 80px 59px;
+     padding: 20px 50px;
+     width: 38%;
+     border-radius: 2px;
+     font-size: 14px;
+     /* text-align: center; */
+ }
+
+ .form-group input {
+     text-align: center;
+     display: block;
+     width: 450px;
+     padding: 6px;
+     border: 2px solid black;
+     margin: 8px auto;
+     font-size: 20px;
+     border-radius: 8px;
+     font-family: 'Abel', sans-serif;
+     font-family: 'EB Garamond', serif;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-family: 'Tektur', cursive;
+ }
+
+ .container h1 {
+     text-align: center;
+ }
+
+ .container button {
+     font-size: 20px;
+     display: block;
+     margin: 25px auto;
+     width: 98%;
+ }
+
+ footer {
+     background-color: black;
+     /* height: 200px; */
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: white;
+ }
+
+ footer .footer-rights {
+     text-align: center;
+     padding: 20px;
+ }
